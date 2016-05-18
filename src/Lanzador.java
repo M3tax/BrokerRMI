@@ -13,6 +13,9 @@ public class Lanzador {
      */
     public static void main(String[] args) {
         if(args.length != 0){
+            System.setProperty("java.security.policy", "politica.policy");
+            System.setSecurityManager(new SecurityManager());
+
             if(args[0].equals("-serverA")){
                 //Lanzar servidor A
 

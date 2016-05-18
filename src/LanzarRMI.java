@@ -11,7 +11,7 @@ import java.rmi.registry.LocateRegistry;
 public class LanzarRMI {
     public static void main(String[] args) {
         try {
-            System.setSecurityManager(new RMISecurityManager());
+
             LocateRegistry.createRegistry(1099);
             System.out.println("Server Ready");
             while (true) {
