@@ -12,7 +12,7 @@
 ### Execution example:
 * Launch LanzadorRMI
 * Launch Lanzador with option -broker
-* Launch Lanzador with option -serverA or -serverB or both
+* Launch Lanzador with option -serverA or -serverB or one after the other
 * Launch Lanzador with option -client
 
 ### FAQ:
